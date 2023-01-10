@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="fonts/style.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Replay- Contact Us</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg my-4 bg-transparent">
+        <div class="container-fluid navbar-container-top">
+          <a class="navbar-brand logoclass nav-logo" href="index.html">
+            <h1>
+              RE<span
+                ><img
+                  src="/images/triangle.png"
+                  alt="Replay logo"
+                  width="74"
+                  height="75" /></span
+              >PLAY
+            </h1>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="-navbar-toggler-icon"
+              ><i class="fa-solid fa-bars navbarIcon"></i
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 navigationbarItems d-flex">
+              <form class="search-form" role="search">
+                <!-- <input
+                  for="search bar"
+                  class="form-control searchbar"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button> -->
+
+                <button type="submit" class="search-button bg-transparent">
+                  <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </button>
+                <input
+                  type="text"
+                  class="search-input"
+                  placeholder="Search..."
+                />
+              </form>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Games.html">Games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="features.html">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ContactUs.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="main-text contact-form">
+        <div class="form-contain">
+          <h2 class="heading-title">Contact Us</h2>
+          <div class="form-s">
+            <form name="Contact-Form" aria-label="Contact Form">
+              <div class="contact-grid d-grid">
+                <div class="input-contact">
+                  <label for="name" class="input-label input-contact"
+                    >Contact Name *</label
+                  ><input
+                    type="text"
+                    class="input w-input"
+                    maxlength="256"
+                    name="contact-name"
+                    placeholder="Contact Name"
+                    required=""
+                  />
+                </div>
+                <div class="input-contact">
+                  <label for="email" class="input-label input-contact"
+                    >Email Address *</label
+                  ><input
+                    type="email"
+                    class="input w-input"
+                    maxlength="256"
+                    name="email"
+                    data-name="email"
+                    placeholder=""
+                    id="email-3"
+                    required=""
+                  />
+                </div>
+                <div class="input-contact">
+                  <label for="team name" class="input-label">Team Name</label
+                  ><input
+                    type="text"
+                    class="input w-input"
+                    maxlength="256"
+                    name="team-name"
+                    placeholder=""
+                  />
+                </div>
+                <div class="input-contact">
+                  <label for="discord-username" class="input-label"
+                    >Discord Username</label
+                  ><input
+                    type="text"
+                    class="input w-input"
+                    maxlength="256"
+                    name="discord-username"
+                    placeholder=""
+                    id="discord-username"
+                  />
+                </div>
+                <div class="text-block">
+                  <label for="Message" id="contact-message" class="input-label"
+                    >Message (Optional)</label
+                  ><textarea
+                    data-name="Message"
+                    id="textarea"
+                    maxlength="5000"
+                    id="Message"
+                    name="Message"
+                    placeholder=""
+                    class="input-message w-input"
+                  ></textarea>
+                </div>
+              </div>
+              <input
+                type="submit"
+                value="SUBMIT"
+                class="primary-btn wideContact contact"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container text-center footer-container">
+          <!-- <div class="row"> -->
+          <div class="col footer-logoarea">
+            <a class="navbar-brand footer-logoclass" href="index.html">
+              <span
+                ><img
+                  src="/images/logo.png"
+                  alt="Replay logo"
+                  class="replaylogo"
+              /></span>
+            </a>
+
+            <ul class="social-ico d-flex">
+              <li class="nav-item">
+                <a class="footer-link" href="#"
+                  ><i class="fa-brands fa-discord fa-lg"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="footer-link" href="#"
+                  ><i class="fa-brands fab fa-facebook fa-lg"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="footer-link" href="#"
+                  ><i class="fa-brands fab fa-twitter fa-lg"></i>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright">
+              Copyright © <span class="year">2023</span> by Replay.GG, Inc. All
+              rights reserved.
+            </p>
+          </div>
+          <div class="col company-col">
+            <nav class="nav-col">
+              <p class="footer-head">Company</p>
+              <ul class="footer-navigation d-flex">
+                <li>
+                  <a class="footer-link" href="about.html">About</a>
+                </li>
+                <li><a class="footer-link" href="#">Blog</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col account-col">
+            <nav class="nav-col">
+              <p class="footer-head">Account</p>
+              <ul class="footer-navigation">
+                <li><a class="footer-link" href="#">Create account</a></li>
+                <li><a class="footer-link" href="#">Sign in</a></li>
+                <li>
+                  <a class="footer-link" href="ContactUs.html"
+                    >Ask a question</a
+                  >
+                </li>
+                <li><a class="footer-link" href="#">Terms</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col">
+            <div class="address-col">
+              <p class="footer-head">Contact us</p>
+              <address class="contact">
+                <p class="address mb-2">
+                  32 Gamal Abd El Nasser St., 2nd Floor, Alexandria, EG 12354
+                </p>
+                <p>
+                  <a class="footer-link" href="tel:03-5334381">03-5334381</a
+                  ><br />
+                  <a class="footer-link" href="mailto:hello@replay.gg"
+                    >hello@replay.gg</a
+                  >
+                </p>
+              </address>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </footer>
+    </main>
+    <script src="https://kit.fontawesome.com/8b6cc1f4c8.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
