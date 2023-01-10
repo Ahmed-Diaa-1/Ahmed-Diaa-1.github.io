@@ -473,7 +473,7 @@ div.text-block {
   line-height: 1.7;
 }
 
-.text p::first-letter {
+.text-about p::first-letter {
   font-weight: 600;
   font-size: x-large;
 }
