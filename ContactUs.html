@@ -43,7 +43,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 navigationbarItems d-flex">
-              <form class="search-form" role="search">
+              <div class="search-form" role="search">
                 <!-- <input
                   for="search bar"
                   class="form-control searchbar"
@@ -63,7 +63,7 @@
                   class="search-input"
                   placeholder="Search..."
                 />
-              </form>
+              </div>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html"
                   >Home</a
@@ -76,7 +76,10 @@
                 <a class="nav-link" href="features.html">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="ContactUs.html">Contact Us</a>
+                <a class="nav-link" href="ContactUs.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
               </li>
             </ul>
           </div>
@@ -99,6 +102,7 @@
                     maxlength="256"
                     name="contact-name"
                     placeholder="Contact Name"
+                    id="name"
                     required=""
                   />
                 </div>
@@ -112,18 +116,19 @@
                     name="email"
                     data-name="email"
                     placeholder=""
-                    id="email-3"
+                    id="email"
                     required=""
                   />
                 </div>
                 <div class="input-contact">
-                  <label for="team name" class="input-label">Team Name</label
+                  <label for="team-name" class="input-label">Team Name</label
                   ><input
                     type="text"
                     class="input w-input"
                     maxlength="256"
                     name="team-name"
                     placeholder=""
+                    id="team-name"
                   />
                 </div>
                 <div class="input-contact">
@@ -139,13 +144,12 @@
                   />
                 </div>
                 <div class="text-block">
-                  <label for="Message" id="contact-message" class="input-label"
+                  <label for="message" id="contact-message" class="input-label"
                     >Message (Optional)</label
                   ><textarea
                     data-name="Message"
-                    id="textarea"
-                    maxlength="5000"
-                    id="Message"
+                    maxlength="3000"
+                    id="message"
                     name="Message"
                     placeholder=""
                     class="input-message w-input"

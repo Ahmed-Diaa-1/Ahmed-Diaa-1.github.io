@@ -46,6 +46,17 @@ body {
   min-width: 300px;
   padding-bottom: 3px;
 }
+/* Carousel */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffa635'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffa635'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #ffa635;
+}
+/* ----- */
 .form-control.searchbar {
   flex-grow: 4;
   border-radius: 25px;
@@ -69,20 +80,15 @@ body {
 .search-icon {
   color: #ffa635;
 }
-@media only screen and (min-width: 992px) {
-  /* the searchbar  */
-  .search-form:focus-within {
-    /* margin-right: 19.7rem; */
-  }
-}
-@media only screen and (max-width: 992px) {
+/* Media Queries */
+@media (max-width: 992px) {
   /* the searchbar  */
   .search-form {
     width: 100%;
     margin: 0;
   }
 }
-@media only screen and (max-width: 34em) {
+@media (max-width: 34em) {
   .navbar-container-top,
   .nav-logo {
     margin-right: 0.5rem;
@@ -167,6 +173,7 @@ body {
   background: transparent;
 }
 /* end of testing area */
+/* ------ */
 .iii {
   /* display: grid;
   grid-template-columns: 1fr 1fr; */
@@ -235,7 +242,8 @@ body {
   font-size: 1.1rem;
   line-height: 1.3rem;
 }
-
+/* -------------- */
+/* cards */
 .cardi {
   min-height: 100vh;
   display: flex;
@@ -312,6 +320,7 @@ body {
 .features-container {
   grid-template-columns: 1.3fr 1fr;
 }
+/* -------- */
 /* .features-text1,
 .features-text h5 {
   color: rgba(252, 173, 69, 0.6);
@@ -423,9 +432,9 @@ div.text-block {
   display: contents;
 }
 
-#textarea {
-  grid-row-start: span 1;
-  grid-row-end: span 1;
+#message {
+  /* grid-row-start: span 1; */
+  /* grid-row-end: span 1; */
   grid-column-start: span 2;
 }
 
@@ -443,4 +452,16 @@ div.text-block {
   color: white;
   background-color: #ffa635;
   box-shadow: 2px 1px 3px 0 rgba(252, 173, 69, 0.9);
+}
+
+/* about */
+.about {
+  display: grid;
+  row-gap: 3rem;
+  line-height: 1.7;
+}
+
+.text p::first-letter {
+  font-weight: 600;
+  font-size: x-large;
 }
