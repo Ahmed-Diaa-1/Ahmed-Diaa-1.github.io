@@ -312,6 +312,7 @@ body {
 .pagination li a {
   color: black;
 }
+/* 
 .pagination li a:link {
   color: rgba(252, 173, 69, 0.6);
 }
@@ -323,7 +324,7 @@ body {
 }
 .pagination li a:visited {
   color: rgba(252, 173, 69, 0.6);
-}
+} */
 .features-container {
   grid-template-columns: 1.3fr 1fr;
 }
@@ -337,7 +338,11 @@ body {
 .navbar-nav a:hover,
 .features-text1,
 .features-text h5,
-.forms-container label {
+.form-contain label,
+.pagination li a:link,
+.pagination li a:hover,
+.pagination li a:active,
+.pagination li a:visited {
   color: rgba(252, 173, 69, 0.6);
 }
 ion-icon {
